@@ -1,0 +1,1576 @@
+https://join.startmeeting.com/study9eveningdevops2
+
+mkdir -p devops/vagrant/ubuntu && cd devops/vagrant/ubuntu/ && vagrant init ubuntu/trusty64 && vagrant up && vagrant ssh
+
+ 3/1/2017
+ ========
+ 
+ Study9 Admin
+Host
+
+10:42PM
+
+apt-get install -y git
+
+Study9 Admin
+Host
+
+10:44PM
+
+git clone
+
+Study9 Admin
+Host
+
+10:45PM
+
+echo "test 123" > test.txt
+
+Study9 Admin
+Host
+
+10:45PM
+
+git add test.txt
+
+Study9 Admin
+Host
+
+10:46PM
+
+git commit -m "comment"
+
+Study9 Admin
+Host
+
+10:49PM
+
+git push
+
+Study9 Admin
+Host
+
+10:56PM
+
+git branch newfeature
+
+Study9 Admin
+Host
+
+10:57PM
+
+git branch
+
+Study9 Admin
+Host
+
+10:57PM
+
+git checkout newfeature
+
+Study9 Admin
+Host
+
+10:57PM
+
+echo "new feature" > feature.txt
+
+Study9 Admin
+Host
+
+10:58PM
+
+git add feature.txt
+
+Study9 Admin
+Host
+
+10:58PM
+
+git commit -m "featurecomment"
+
+Study9 Admin
+Host
+
+10:59PM
+
+git log
+
+Study9 Admin
+Host
+
+10:59PM
+
+git push origin newfeature
+
+Study9 Admin
+Host
+
+11:02PM
+
+git checkout master
+
+Study9 Admin
+Host
+
+11:02PM
+
+gitbranch
+
+Study9 Admin
+Host
+
+11:02PM
+
+git branch
+
+Study9 Admin
+Host
+
+11:02PM
+
+git merge newfeature
+
+Study9 Admin
+Host
+
+11:02PM
+
+git push
+
+Study9 Admin
+Host
+
+11:04PM
+
+gitlab.com
+
+Study9 Admin
+Host
+
+11:07PM
+
+git diff
+
+Study9 Admin
+Host
+
+11:08PM
+
+git diff --name-only newfeature master
+
+Study9 Admin
+Host
+
+11:10PM
+
+cd ../git && vagrant init ubuntu/trusty64 && notepad Vagrantfile
+
+Study9 Admin
+Host
+
+11:12PM
+
+vagrant up && vagrant ssh
+
+Study9 Admin
+Host
+
+11:14PM
+
+apt-get install -y git
+
+Study9 Admin
+Host
+
+11:15PM
+
+wget https://dl.gogs.io/0.10.1/linux_amd64.tar.gz
+
+Study9 Admin
+Host
+
+11:15PM
+
+tar -xvzf linux_amd64.tar.gz
+
+Study9 Admin
+Host
+
+11:17PM
+
+cd gogs
+
+Study9 Admin
+Host
+
+11:17PM
+
+./gogs web
+
+Study9 Admin
+Host
+
+11:18PM
+
+http://192.168..33.11:3000
+
+Study9 Admin
+Host
+
+11:28PM
+
+https://github.com/roybhaskar9/samplejava.git
+
+Study9 Admin
+Host
+
+11:29PM
+
+samplejava
+
+Study9 Admin
+Host
+
+11:30PM
+
+exit
+
+Shriram Pai
+
+
+11:31PM
+
+ok fine
+
+Study9 Admin
+Host
+
+11:32PM
+
+cd ..
+
+Study9 Admin
+Host
+
+11:32PM
+
+ls
+
+Study9 Admin
+Host
+
+11:32PM
+
+cd gogs-repositories
+
+Study9 Admin
+Host
+
+11:32PM
+
+cd admin2
+
+
+3/2/2017
+========
+
+Shriram Pai
+
+
+10:05PM
+
+yes
+
+Study9 Admin
+Host
+
+10:06PM
+
+sudo su -
+
+Study9 Admin
+Host
+
+10:06PM
+
+ls
+
+Study9 Admin
+Host
+
+10:06PM
+
+cd gogs
+
+Study9 Admin
+Host
+
+10:06PM
+
+ls
+
+Study9 Admin
+Host
+
+10:06PM
+
+./gogs web
+
+Study9 Admin
+Host
+
+10:11PM
+
+ls
+
+Study9 Admin
+Host
+
+10:12PM
+
+vagrant init ubuntu/trusty64
+
+Study9 Admin
+Host
+
+10:13PM
+
+trusty tahr
+
+Study9 Admin
+Host
+
+10:13PM
+
+14.04
+
+Study9 Admin
+Host
+
+10:13PM
+
+2014 April
+
+Study9 Admin
+Host
+
+10:13PM
+
+64
+
+Study9 Admin
+Host
+
+10:14PM
+
+2512
+
+Study9 Admin
+Host
+
+10:14PM
+
+vagrant up && vagrant ssh
+
+Study9 Admin
+Host
+
+10:15PM
+
+vagrant
+
+Study9 Admin
+Host
+
+10:16PM
+
+sudo su -
+
+Study9 Admin
+Host
+
+10:17PM
+
+echo "jenkins.example.com" > /etc/hostname
+
+Study9 Admin
+Host
+
+10:17PM
+
+echo "192.168.33.11 git.example.com" >> /etc/hosts
+
+Study9 Admin
+Host
+
+10:18PM
+
+ping git.example.com
+
+Study9 Admin
+Host
+
+10:20PM
+
+echo "git.example.com" > /etc/hostname
+
+Study9 Admin
+Host
+
+10:20PM
+
+echo "192.168.33.12 jenkins.example.com" >> /etc/hosts
+
+Study9 Admin
+Host
+
+10:21PM
+
+ping jenkins.example.com
+
+Study9 Admin
+Host
+
+10:21PM
+
+vagrant halt && vagrant up
+
+Study9 Admin
+Host
+
+10:24PM
+
+./gogs web
+
+Study9 Admin
+Host
+
+10:25PM
+
+puppet module install rtyler-jenkins
+
+Study9 Admin
+Host
+
+10:27PM
+
+puppet apply jenkins.pp
+
+Study9 Admin
+Host
+
+10:28PM
+
+forge.puppet.com
+
+Study9 Admin
+Host
+
+10:43PM
+
+apt-get install -y git
+
+Study9 Admin
+Host
+
+10:48PM
+
+*/5 * * * *
+
+Study9 Admin
+Host
+
+10:55PM
+
+apt-get install -y maven
+
+Study9 Admin
+Host
+
+10:56PM
+
+puppet module install maestrodev-sonarqube
+
+Study9 Admin
+Host
+
+10:59PM
+
+nano sonar.pp
+
+Study9 Admin
+Host
+
+10:59PM
+
+class { ‘java’: } 
+class { ‘sonarqube’ : 
+version => ‘5.1’, 
+}
+
+Study9 Admin
+Host
+
+11:01PM
+
+puppet apply sonar.pp
+
+Study9 Admin
+Host
+
+11:04PM
+
+puppet module install puppetlabs-java
+
+Study9 Admin
+Host
+
+11:05PM
+
+ubuntu / debian: "sudo apt-get install -y puppet"
+
+Study9 Admin
+Host
+
+11:05PM
+
+redhat / fedora / centos: "sudo yum install -y puppet"
+
+
+
+
+3/4/2017
+===========
+
+
+Study9 Admin
+Host
+
+10:03PM
+
+hi all
+
+Study9 Admin
+Host
+
+10:03PM
+
+give me a min to connect my audio
+
+Girish
+
+
+10:03PM
+
+Hi Bhaskar
+
+Girish
+
+
+10:04PM
+
+ok
+
+Shriram Pai
+
+
+10:07PM
+
+Hi Bhaskar , you may pls start the session
+
+Girish
+
+
+10:10PM
+
+recording pls
+
+Study9 Admin
+Host
+
+10:11PM
+
+puppet module install hubspot-nexus
+
+Study9 Admin
+Host
+
+10:13PM
+
+class{ ‘::java’: } 
+
+class{ ‘::nexus’: 
+version => ‘2.12.0’, 
+revision => ’01’, 
+nexus_root => ‘/srv’, 
+} 
+
+Class[‘::java’] -> 
+Class[‘::nexus’]
+
+Study9 Admin
+Host
+
+10:22PM
+
+cd /etc/maven
+
+Study9 Admin
+Host
+
+10:24PM
+
+mv settings.xml settings.xml.bak
+
+Study9 Admin
+Host
+
+10:25PM
+
+wget https://raw.githubusercontent.com/roybhaskar9/samplejava/master/settings.xml
+
+Study9 Admin
+Host
+
+10:28PM
+
+https://books.sonatype.com/nexus-book/reference/config-maven.html
+
+Study9 Admin
+Host
+
+10:29PM
+
+https://docs.sonarqube.org/display/SONARQUBE52/Installing+and+Configuring+SonarQube+Scanner+for+Maven
+
+Study9 Admin
+Host
+
+10:42PM
+
+java --version
+
+Study9 Admin
+Host
+
+10:44PM
+
+sudo apt-get install openjdk-8-jdk
+
+Study9 Admin
+Host
+
+10:45PM
+
+sudo add-apt-repository ppa:webupd8team/java -y 
+sudo apt-get update 
+sudo apt-get install -y oracle-java8-installer
+
+Study9 Admin
+Host
+
+10:45PM
+
+sudo apt-get install oracle-java8-set-default
+
+Study9 Admin
+Host
+
+11:07PM
+
+build
+
+Study9 Admin
+Host
+
+11:14PM
+
+https://github.com/roybhaskar9/samplejava/blob/master/pom.xml
+
+Study9 Admin
+Host
+
+11:37PM
+
+vagrant init ubuntu/trusty64
+
+Study9 Admin
+Host
+
+11:37PM
+
+notepad Vagrantfile
+
+Study9 Admin
+Host
+
+11:39PM
+
+apt-get install -y tomcat7 tomcat7-docs tomcat7-admin tomcat7-examples
+
+Study9 Admin
+Host
+
+11:41PM
+
+mv /etc/tomcat7/tomcat-users.xml /etc/tomcat7/tomcat-users.xml.bak
+
+Study9 Admin
+Host
+
+11:42PM
+
+sudo
+
+Study9 Admin
+Host
+
+11:43PM
+
+sudo wget https://raw.githubusercontent.com/roybhaskar9/terraform/master/tomcat-users.xml -O /etc/tomcat7/tomcat-users.xml
+
+Study9 Admin
+Host
+
+11:43PM
+
+sudo service tomcat7 restart
+
+Study9 Admin
+Host
+
+11:47PM
+
+vagrant up && vagrant ssh
+
+Study9 Admin
+Host
+
+11:50PM
+
+sudo puppet module install username-tomcat7
+
+Study9 Admin
+Host
+
+11:51PM
+
+echo "include tomcat7" > tomcat7.pp
+
+Study9 Admin
+Host
+
+11:51PM
+
+sudo puppet apply tomcat7.pp
+
+Study9 Admin
+Host
+
+11:52PM
+
+sudo su -
+
+Study9 Admin
+Host
+
+11:52PM
+
+cd /etc/tomcat7
+
+Study9 Admin
+Host
+
+11:52PM
+
+nano tomcat-users.xml
+
+Study9 Admin
+Host
+
+11:54PM
+
+192.168.33.20:8080
+
+Study9 Admin
+Host
+
+11:58PM
+
+deploy to container
+
+Study9 Admin
+Host
+
+12:04AM
+
+http://192.168.33.20:8080/
+
+Study9 Admin
+Host
+
+12:06AM
+
+http://192.168.33.20:8080/dev
+
+3/7/2017
+==============
+
+
+Study9 Admin
+Host
+
+11:15PM
+
+192.168.33.20:8080/dev
+
+Study9 Admin
+Host
+
+11:16PM
+
+192.168.33.20:8080/test
+
+Study9 Admin
+Host
+
+11:16PM
+
+192.168.33.20:8080/stage
+
+Study9 Admin
+Host
+
+11:16PM
+
+192.168.33.20:8080/dev
+
+Study9 Admin
+Host
+
+11:16PM
+
+192.168.33.20:8080/prod
+
+Study9 Admin
+Host
+
+11:27PM
+
+apt-get install -y firefox
+
+Study9 Admin
+Host
+
+11:31PM
+
+apt-get install python-pip
+
+Study9 Admin
+Host
+
+11:33PM
+
+pip install selenium
+
+Study9 Admin
+Host
+
+11:34PM
+
+pip install pyvirtualdisplay
+
+Shriram
+
+
+10:19PM
+
+hello Bhaskar
+
+syedDesk
+
+
+10:20PM
+
+Sorry for that:)
+
+Shriram
+
+
+10:21PM
+
+yes
+
+Study9 Admin
+Host
+
+10:42PM
+
+wget https://raw.githubusercontent.com/roybhaskar9/samplejava/master/seleniumtest.py
+
+Study9 Admin
+Host
+
+10:45PM
+
+apt-get install python-pip
+
+Study9 Admin
+Host
+
+10:46PM
+
+pip install pyvirtualdisplay selenium
+
+Study9 Admin
+Host
+
+10:46PM
+
+apt-get install xvfb
+
+Study9 Admin
+Host
+
+10:47PM
+
+wget https://github.com/mozilla/geckodriver/releases/download/v0.14.0/geckodriver-v0.14.0-linux64.tar.gz
+
+Study9 Admin
+Host
+
+10:47PM
+
+tar -xvzf gecko*.tar.gz
+
+Study9 Admin
+Host
+
+10:47PM
+
+cp geckodriver /usr/bin
+
+Study9 Admin
+Host
+
+10:56PM
+
+cp seleniumtest.py /home/vagrant
+
+Study9 Admin
+Host
+
+10:56PM
+
+sudo chmod 777 seleniumtest.py
+
+Study9 Admin
+Host
+
+10:57PM
+
+sudo chmod 777 seleniumtest.py
+
+Study9 Admin
+Host
+
+10:59PM
+
+apt-get xvfb
+
+Study9 Admin
+Host
+
+10:59PM
+
+apt-get install xvfb
+
+
+Vagrant
+=========
+
+Study9 Admin
+Host
+
+10:15PM
+
+centos7
+
+Study9 Admin
+Host
+
+10:15PM
+
+vagrant init centos/7 && vgrant up
+
+Study9 Admin
+Host
+
+10:22PM
+
+vagrant package --output gitlab.box
+
+Study9 Admin
+Host
+
+10:27PM
+
+vagrant box add gitlab gitlab.box
+
+Study9 Admin
+Host
+
+10:36PM
+
+config.vm.synced_folder ".","/vagrant",disabled:true
+
+Study9 Admin
+Host
+
+10:38PM
+
+vagrant ssh
+
+Study9 Admin
+Host
+
+10:38PM
+
+yum -y install httpd
+
+Study9 Admin
+Host
+
+10:46PM
+
+systemctl httpd stat
+
+Study9 Admin
+Host
+
+10:47PM
+
+vagrant package --output httpd.box
+
+Study9 Admin
+Host
+
+10:55PM
+
+https://atlas.hashicorp.com/boxes/search
+
+Study9 Admin
+Host
+
+11:04PM
+
+vagrant package --base SPECIFIC_NAME_FOR_VM --output OUTPUT_BOX_NAME.box
+
+Study9 Admin
+Host
+
+11:05PM
+
+VBoxManage list vms
+
+Study9 Admin
+Host
+
+11:17PM
+
+config.ssh.password = "vagrant"
+
+Study9 Admin
+Host
+
+11:19PM
+
+vagrantcloud.com
+
+Study9 Admin
+Host
+
+11:26PM
+
+find / -name httpd.box
+
+
+LXC
+===
+
+
+root@vagrant-ubuntu-trusty-64:~# lxc-create -t ubuntu -n cn1
+
+root@vagrant-ubuntu-trusty-64:~# history
+    1  apt-get update
+    2  apt-get install lxc
+    3  lxc-create -t ubuntu -n cn1
+    4  lxc
+    5  lxc-info
+    6  lxc-ls
+    7  lxc-info cn1
+    8  lxc-info --name cn1
+    9  lxc-console
+   10  lxc-console --name cn1
+   11  lxc-list
+   12  lxc-ls
+   13  lxc-start --name cn1
+   14  history
+root@vagrant-ubuntu-trusty-64:~#
+
+root@vagrant-ubuntu-trusty-64:~# lxc-info  --name cn1
+Name:           cn1
+State:          RUNNING
+PID:            23442
+IP:             10.0.3.65
+CPU use:        1.08 seconds
+BlkIO use:      10.14 MiB
+Memory use:     16.87 MiB
+KMem use:       0 bytes
+Link:           veth5DQIBO
+ TX bytes:      4.82 KiB
+ RX bytes:      6.23 KiB
+ Total bytes:   11.04 KiB
+root@vagrant-ubuntu-trusty-64:~#
+
+
+
+root@vagrant-ubuntu-trusty-64:~# lxc-stop --name cn1
+root@vagrant-ubuntu-trusty-64:~# lxc-info  --name cn1
+Name:           cn1
+State:          STOPPED
+root@vagrant-ubuntu-trusty-64:~# lxc-info  --name cn1
+Name:           cn1
+State:          STOPPED
+root@vagrant-ubuntu-trusty-64:~#
+
+
+
+
+Docker
+=========
+
+wget -qO- https://get.docker.com/ | sh
+
+or
+
+curl -sSL  https://get.docker.com/ | sh
+
+or
+
+yum install docker
+
+
+systemctl start docker
+
+systemctl status docker
+
+systemctl stop docker
+
+docker images
+
+docker pull ubuntu
+
+
+
+To run docker
+--------
+
+docker run ubuntu echo "Hello World"
+
+docker ps
+
+docker ps -a
+
+run & enter inside the container
+--------------------------
+docker run -it ubuntu /bin/bash
+
+Ctrl + P+ Q
+
+
+connect back to container
+-------------------------
+docker exec -it 975f3c8ec74  /bin/bash
+
+To run container in daemon Mode which never exit
+------------------------------------------------
+
+root@vagrant-ubuntu-trusty-64:~# docker run  -d ubuntu tail -f /dev/null
+bcd66f366539b86a5a2a2fbe030e5f41ea6964e99328836f43be99bc0b123c0d
+
+
+root@vagrant-ubuntu-trusty-64:~# docker ps
+CONTAINER ID        IMAGE               COMMAND               CREATED             STATUS              PORTS               NAMES
+bcd66f366539        ubuntu              "tail -f /dev/null"   7 seconds ago       Up 7 seconds                            confident_aryabhata
+
+
+root@vagrant-ubuntu-trusty-64:~# docker exec -it bcd66f366539 /bin/bash
+root@bcd66f366539:/#
+
+To stop container
+-----------------
+
+docker stop bcd66f366539
+
+docker start bcd66f366539
+
+root@vagrant-ubuntu-trusty-64:~# docker exec -it bcd66f366539 /bin/bash
+Error response from daemon: Container bcd66f366539b86a5a2a2fbe030e5f41ea6964e99328836f43be99bc0b123c0d is not running
+
+root@vagrant-ubuntu-trusty-64:~# docker start bcd66f366539
+bcd66f366539
+
+root@vagrant-ubuntu-trusty-64:~# docker exec -it bcd66f366539 /bin/bash
+root@bcd66f366539:/# 
+
+To remove container
+-------------------
+
+docker stop bcd66f366539
+
+docker rm bcd66f366539
+
+To get more info  abt container
+--------------------------------
+
+docker inspect bcd66f366539
+
+
+
+
+To remove images
+-------------------
+
+
+root@vagrant-ubuntu-trusty-64:~# docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+ubuntu              latest              0ef2e08ed3fa        3 weeks ago         130 MB
+root@vagrant-ubuntu-trusty-64:~#
+
+
+docker rmi -f  0ef2e08ed3fa
+
+Map port
+-------
+
+docker run -d -p 80:5000 training/webapp python app.py
+
+docker port 0ef2e08ed3fa
+
+
+Container log
+--------------
+
+docker logs -f 0ef2e08ed3fa
+
+container process
+------------------
+docker top 0ef2e08ed3fa
+
+
+bijoy
+
+
+10:05PM
+
+hi
+
+Study9 Admin
+Host
+
+10:13PM
+
+http://www.spantree.net/images/docker-layered-filesystem.png
+
+Study9 Admin
+Host
+
+10:17PM
+
+https://nvisium.com/blog/2014/10/15/docker-cache-friend-or-foe/1QndWJyZ7y4Ke9tZw87-uU73nXdKYKuQjMD3XTv3M6PPSvEYL2mBvPHFEO49BLPdcclgFxhM7pDs1E5G39VmRo4vg189grZ-0lz3OkpxpEWjQcWQJ20ixTxu6PUyTo5RjQ
+
+Study9 Admin
+Host
+
+10:18PM
+
+http://downloads.ugidotnet.org/content/1411/layers.png
+
+
+bijoy
+
+
+10:05PM
+
+hi
+
+Study9 Admin
+Host
+
+10:13PM
+
+http://www.spantree.net/images/docker-layered-filesystem.png
+
+Study9 Admin
+Host
+
+10:17PM
+
+https://nvisium.com/blog/2014/10/15/docker-cache-friend-or-foe/1QndWJyZ7y4Ke9tZw87-uU73nXdKYKuQjMD3XTv3M6PPSvEYL2mBvPHFEO49BLPdcclgFxhM7pDs1E5G39VmRo4vg189grZ-0lz3OkpxpEWjQcWQJ20ixTxu6PUyTo5RjQ
+
+Study9 Admin
+Host
+
+10:18PM
+
+http://downloads.ugidotnet.org/content/1411/layers.png
+
+Study9 Admin
+Host
+
+10:20PM
+
+/var/lib/docker
+
+Study9 Admin
+Host
+
+10:21PM
+
+docker run -d ubuntu tail -f /dev/null
+
+Study9 Admin
+Host
+
+10:23PM
+
+find /var/lib/docker/aufs/diff/66* | grep <docker_container_name>
+
+Study9 Admin
+Host
+
+10:25PM
+
+cd aufs
+
+Study9 Admin
+Host
+
+10:27PM
+
+find * | grep containerid
+
+Study9 Admin
+Host
+
+10:32PM
+
+docker exec -it <container_id> /bin/bash
+
+Study9 Admin
+Host
+
+10:33PM
+
+echo "hi" > /var/testfile.txt
+
+Study9 Admin
+Host
+
+10:37PM
+
+(cat /var/lib/docker/image/aufs/layerdb/mounts/$(docker inspect --format {{.Id}}
+
+Study9 Admin
+Host
+
+10:37PM
+
+(cat /var/lib/docker/image/aufs/layerdb/mounts/$(docker inspect --format {{.Id}} <YOUR_CONTAINER_NAME>)/mount-id)
+
+Study9 Admin
+Host
+
+10:44PM
+
+docker create -v /tmp --name datacontainer ubuntu
+
+Study9 Admin
+Host
+
+10:45PM
+
+docker run -t -i --volumes-from datacontainer ubuntu /bin/bash
+
+Study9 Admin
+Host
+
+10:47PM
+
+echo "hi I am not goin anywhere" > /tmp/testfile.txt
+
+Study9 Admin
+Host
+
+10:48PM
+
+echo "hi" > /var/testfile.txt
+
+Study9 Admin
+Host
+
+10:49PM
+
+docker run -t -i --volumes-from datacontainer ubuntu /bin/bash
+
+Study9 Admin
+Host
+
+10:52PM
+
+echo "This is a host machine file" > file1.txt
+
+Study9 Admin
+Host
+
+10:52PM
+
+docker run -d -v ~/:/tmp -i ubuntu
+
+Study9 Admin
+Host
+
+10:53PM
+
+docker exec -it CONTAINER_ID /bin/bash
+
+Study9 Admin
+Host
+
+10:56PM
+
+docker run -i -t fedora bash
+
+Study9 Admin
+Host
+
+10:58PM
+
+yum update -y
+
+Study9 Admin
+Host
+
+11:03PM
+
+yum install -y httpd
+
+Study9 Admin
+Host
+
+11:05PM
+
+yum install -y tomcat7
+
+Study9 Admin
+Host
+
+11:06PM
+
+yum install -y firefox lynx
+
+Study9 Admin
+Host
+
+11:11PM
+
+docker commit container_id fedora-httpd
+
+Study9 Admin
+Host
+
+11:11PM
+
+docker commit c16378f943fe fedora-firefox
+
+Study9 Admin
+Host
+
+11:14PM
+
+docker run -i -t fedora-firefox bash
+
+Study9 Admin
+Host
+
+11:15PM
+
+yum info firefox
+
+Study9 Admin
+Host
+
+11:16PM
+
+lynx google.com
+
+Study9 Admin
+Host
+
+11:18PM
+
+mkdir customdocker
+
+Study9 Admin
+Host
+
+11:18PM
+
+vi Dockerfile
+
+Study9 Admin
+Host
+
+11:19PM
+
+FROM ubuntu:12.04 MAINTAINER developer_name version: 0.1 RUN apt-get update && apt-get install -y apache2 && apt-get clean && rm -rf /var/lib/apt/lists/* ENV APACHE_RUN_USER www-data ENV APACHE_RUN_GROUP www-data ENV APACHE_LOG_DIR /var/log/apache2 EXPOSE 80 CMD ["/usr/sbin/apache2", "-D", "FOREGROUND"]
+
+Study9 Admin
+Host
+
+11:19PM
+
+FROM ubuntu:12.04 
+MAINTAINER developer_name version: 0.1 
+RUN apt-get update && apt-get install -y apache2 && apt-get clean && rm -rf /var/lib/apt/lists/* 
+ENV APACHE_RUN_USER www-data 
+ENV APACHE_RUN_GROUP www-data 
+ENV APACHE_LOG_DIR /var/log/apache2 
+EXPOSE 80 
+CMD ["/usr/sbin/apache2", "-D", "FOREGROUND"]
+
+Study9 Admin
+Host
+
+11:24PM
+
+docker build -t my_apache2 .
+
+mkdir kubernetes && cd kubernetes && wget https://github.com/roybhaskar9/files/master/KubernetesVagrantfile -O Vagrantfile
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
